@@ -1,0 +1,395 @@
+header{
+	background-color: grey;
+	width: 100%;
+	height: auto;
+	border: 2px solid #000;
+
+}
+
+div.header{
+	width: 90%;
+	height: auto;
+	background-color: blue;
+	margin: 0 auto;
+	border: 2px solid #fff;
+}
+
+nav div.banner{
+	background-color: orange;
+	width: 100%;
+	height: auto;
+}
+
+.banner img{
+	width: 100%;
+	height: auto;
+	
+}
+
+.logo-cardif{
+	background-color: green;
+	width: 50%;
+	height: 100px;
+	display: inline-block;
+	text-align: right;
+
+}
+
+.logo-caja{
+
+	background-color: purple;
+	width: 49%;
+	height: 100px;
+	display: inline-block;
+}
+
+.logo-cardif img{
+	width: 300px;
+	height: 100px;
+	padding: 10px;
+
+}
+
+ .logo-caja img{
+	width: 300px;
+	height: 100px;
+	padding: 10px;
+}
+
+/*Tarjetas*/
+
+section {
+	background-image: url('../img/bg.png');
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	position: absolute;
+	background-position: center;
+	border: 2px solid blue;
+
+}
+
+section div.tarjeta{
+	width: 92%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	position: relative;
+	border: 3px solid green;
+}
+
+h3{
+	text-transform: uppercase;
+	color: #1e988a;
+	font-size: 18px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+li {
+  position: relative;
+  padding-left: 15px;
+}
+
+li.lista:before{
+  position: absolute;
+  left: -5px;
+  content: "•"; 
+  color: #1e988a;
+  font-size: 25px;
+  top: -8px;
+
+}
+
+
+table{
+	width: 100%
+}
+
+
+div.titulo{
+	width: 100%;
+	height: 100px;
+	background-color: #1e988a;
+	/*border: 2px solid blue;*/
+    border-radius: 10px 10px 0 0;  
+    vertical-align: middle;  
+    color: #fff;
+    text-align: center;
+}
+
+.titulo div{
+  width: 80%;
+  height: auto;
+  line-height: 40px;
+  /*border: 1px solid black;*/
+  margin: 0 auto;
+  font-size: 22px;
+  padding: 8px;
+}
+
+
+div.cuerpo{
+	width: 100%;
+	height: auto;
+	background-color: rgba(239,235,231,.7);
+	/*background-color: #f58232;*/
+	border-radius: 0 0 10px 10px;
+	padding: 30px;
+	position: relative;
+	border: 2px dashed blue;
+}
+
+div.detalle-documentos{
+	/*background-color: green;*/
+	width: 94%;
+	height: 45px;	
+    margin: 0 auto;
+
+
+}
+
+div.ver-detalle{
+	/*background-color: brown;*/
+	width: 145px;
+	height: auto;
+	float: left;
+	
+}
+
+div.condiciones{
+	/*background-color: purple;*/
+	width: 207px;
+	height: auto;
+	float: right;
+}
+
+hr{
+	/*border: 1px solid #fff;*/
+
+}
+
+div.btn-home{
+	/*background-color: lightblue;*/
+	width: 94%;
+	height: 60px;
+	padding: 10px;
+	margin: 0 auto;
+
+
+}
+/*button.no-me-interesa,
+button.me-interesa,{
+	width: 150px;
+	height: 100px;
+	padding: 20px;
+
+
+
+}*/
+
+button.no-me-interesa, button.me-interesa{
+	width: 200px;
+	height: 50px;
+}
+
+button.no-me-interesa{
+	float: left;
+	background-color: #9f9f9f;
+	color: #fff;
+	border: 1px #9f9f9f solid;
+	border-radius: 5px;
+}
+
+
+button.me-interesa{
+	float: right;
+	background-color: #1e988a;
+	color: #fff;
+	border: 1px #1e988a solid;
+	border-radius: 5px;	
+}
+
+.btn-verde{	
+	background-color: #1e988a;
+	color: #fff;
+	border: 1px #1e988a solid;
+	border-radius: 5px;	
+	width: 250px;
+	height: 50px;
+	text-decoration: none;
+}
+
+
+/********* login **********/
+
+div.box-login{
+	/*background-color: green;*/
+	width: 80%;
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
+}
+
+input[type=text],input[type=password]{
+	width: 100%;
+	padding: 10px;
+	margin: 8px 0; 
+	border-radius: 8px;  
+	box-sizing : border-box;
+	border: 1px solid #f2e9e7;
+
+}
+form{
+	text-align: center;
+}
+
+
+button.enviar {
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #1e988a;
+    width: 180px;
+
+
+}
+
+li.circulo { 
+	border-radius: 50%;  
+	background-color: rgb(30, 152, 138);  
+	position: absolute;  
+	left: 0;  
+	top: 0;  
+	width: 30px;  
+	height: 30px;  
+	z-index: 58;
+	content: counter(inst);
+}
+
+/*li.circulo::before {  
+	border-radius: 50%;  
+	background-color: rgb(30, 152, 138);  
+	position: absolute;  
+	left: 2373px;  
+	top: 1403px;  
+	width: 108px;  
+	height: 108px;  
+	z-index: 58;
+}*/
+
+
+.box-agregar{
+	/*background-color: red;*/
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+}
+
+.form-nombre{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	text-align: left;
+}
+
+form.formBeneficiarios{
+
+	/*background-color: blue;*/
+	width: 100%;
+	height: auto;
+
+}
+
+.btn-group{
+	/*background-color: red;	*/
+	height: auto;
+	width:90%;
+	display: block;
+	overflow: auto;
+	white-space: nowrap;
+	margin:0px auto;
+	/*border:1px red solid;*/
+}
+
+button.bene {
+	float: left;
+}
+
+button.sig {
+	float: right;
+}
+
+
+/**************PAGO*******************/
+
+a.btn-pago{
+	width: 180px;
+	height: auto;
+	background-color: #1e988a;	
+	display: inline-flex;
+	padding: 15px;
+	border-radius: 5px;
+	color: #fff!important;	
+	cursor: pointer;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.credito{
+	float: left;
+}
+
+a.planilla{
+	float: right;
+	width: 240px;
+	height: auto;
+	list-sty
+}
+
+
+ol {
+  max-width: 350px;
+  counter-reset: letter;
+  list-style: none;
+  padding-left: 40px;
+}
+ol li {
+  margin: 0 0 0.5rem 0;
+  counter-increment: letter;
+  position: relative;
+}
+ol li::before {
+  content: counter(letter,upper-alpha);
+  color: #fcd000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: absolute;
+  --size: 40px;
+  left: calc(-1 * var(--size) - 10px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 0;
+  transform: rotate(-10deg);
+  background-color: rgb(30, 152, 138); 
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 1px 1px 0 #999;
+}
+
+
