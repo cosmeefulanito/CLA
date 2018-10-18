@@ -21,48 +21,48 @@ Pagina Login
 					<div class="col-6">						
 						<div class="form-nombre">
 							<input type="text" name="txtNombre" class="input">
-							<label for="txtNombre">Ingresa el primer nombre</label>
+							<p>Ingresa el primer nombre</p>
 						</div>
 
 						<div class="form-nombre">
 							<input type="text" name="txtNombre" class="input">
-							<label for="txtNombre">Ingresa el apellido paterno</label>
+							<p>Ingresa el apellido paterno</p>
 						</div>
 
 						<div class="form-nombre">
 							<input type="text" name="txtNombre" class="input">
-							<label for="txtNombre">Ingresa el rut sin puntos ni guiones</label>
+							<p>Ingresa el rut sin puntos ni guiones</p>
 						</div>
 
 						<div class="form-nombre">
 							<input type="text" name="txtNombre" class="input">
-							<label for="txtNombre">Ingresa el parentesco con el beneficiario</label>
+							<p>Ingresa el parentesco con el beneficiario</p>
 						</div>
 
 						<div class="form-nombre">
 							<input type="text" name="txtNombre" class="input">
-							<label for="txtNombre">Ingresa el numero telefonico del beneficiario</label>
+							<p>Ingresa el numero telefonico del beneficiario</p>
 						</div>
 					</div>
 					<div class="col-6">
 						<div class="form-nombre">
 							<input type="text" name="txtNombre" class="input">
-							<label for="txtNombre">Ingresa el segundo nombre</label>
+							<p>Ingresa el segundo nombre</p>
 						</div>
 
 						<div class="form-nombre">
 							<input type="text" name="txtNombre" class="input">
-							<label for="txtNombre">Ingresa el apellido materno</label>
+							<p>Ingresa el apellido materno</p>
 						</div>
 
 						<div class="form-nombre">
 							<input type="text" name="txtNombre" class="input">
-							<label for="txtNombre">Ingresa la fecha de nacimiento</label>
+							<p>Ingresa la fecha de nacimiento</p>
 						</div>
 
 						<div class="form-nombre">
 							<input type="text" name="txtNombre" class="input">
-							<label for="txtNombre">Ingresa el mail del beneficiario</label>
+							<p>Ingresa el mail del beneficiario</p>
 						</div>
 					</div>
 				</div>
@@ -71,8 +71,10 @@ Pagina Login
 			<div class="btn-group">
 				<!-- <button type="button" class="btn-verde bene">AGREGAR MAS BENEFICIARIOS</button>
 				<button type="button" class="btn-verde sig">SIGUIENTE</button> -->
-				<button class="btn btn-info bene">AGREGAR MAS BENEFICIARIO</button>
-				<button type="submit" class="btn btn-info sig">SIGUIENTE</button>
+				<button class="btn-verde bene">
+					<i class="fas fa-plus-circle fa-2x" style="display: table;float: left;"></i>AGREGAR MAS BENEFICIARIOS
+				</button>
+				<button type="submit" class="btn-verde sig">SIGUIENTE</button>
 				
 			</div>
 		</div>

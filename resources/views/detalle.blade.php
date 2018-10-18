@@ -24,11 +24,11 @@ Pagina Login
 
 			<h3>fecha de nacimiento</h3>
 			<div>
-				<p>luisa.caanueva@gmail.com <span>Editar</span></p>
+				<p>luisa.caanueva@gmail.com <span class="txt-editar">Editar</span></p>
 			</div>
 			<h3>telefono</h3>
 			<div>
-				<p>+56 9 88834923 <span>Editar</span></p>
+				<p>+56 9 88834923 <span class="txt-editar">Editar</span></p>
 			</div>
 
 			<hr>

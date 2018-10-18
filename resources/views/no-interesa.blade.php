@@ -19,8 +19,7 @@ Pagina Login
 					<li>Los beneficios que otorga no son interesantes</li>
 					<li>No me gusta el pago de prima anual</li>
 					<li>Prefiero contratar un seguro con un ejecutivo</li>
-					<li>
-						Otro
+					<li>Otro
 						<textarea></textarea>
 					</li>
 				</ol>				
